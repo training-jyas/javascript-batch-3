@@ -36,11 +36,3 @@ console.log('typeof var8 with value is : ', var8 ,' is : ', typeof var8);
 console.log('typeof var9 with value is : ', var9 ,' is : ', typeof var9);
 console.log('typeof var10 with value is : ', var10 ,' is : ', typeof var10);
 console.log('typeof var11 with value is : ', var11 ,' is : ', typeof var11);
-
-// if (var5 == undefined || typeof var5 === 'undefined') {
-//     console.log('var5 is : undefined');
-// }
-
-// console.log('value of var2 is :', var2);
-// console.log('typeof var2 is ', typeof var2);
-// console.log('typeof `typeof of var2` is :', typeof (typeof var2));

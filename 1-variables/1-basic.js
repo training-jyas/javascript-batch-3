@@ -13,8 +13,10 @@ temp = 20;
 console.log('temp value ' + temp);
 
 // to access the body here we have to use the object `document`
-document.writeln('temp value ' + temp);
-document.writeln('temp value ' + 'hello !');
+if (typeof document !== 'undefined') {
+    document.writeln('temp value ' + temp);
+    document.writeln('temp value ' + 'hello !');
+}
 
 // lets see some of the values here
 var temp2 = 20;
